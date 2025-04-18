@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="parent">
+      <li class="list-item">One</li>
+      <li class="list-item">Two</li>
+      <li class="list-item">Three</li>
+      <li class="list-item">Four</li>
+      <li class="list-item">Five</li>
+    </ul>
+    <div></div>
+  </body>
+  <script>
+    //this is the first method for selecting an element
+    // listCollection = document.getElementsByClassName("list-item");
+    // console.log(listCollection);
+    // myConvertedArray = Array.from(listCollection);
+    // myConvertedArray.forEach((item) => {
+    //   console.log(item.innerText);
+    // });
+    //second method
+    // ul = document.querySelector(".parent");
+    // listCollection = ul.children;
+    // myConvertedArray = Array.from(listCollection);
+    // myConvertedArray.forEach((item) => {
+    //   console.log(item.textContent);
+    // });
+    //third method
+    // listNodes = document.querySelectorAll(".list-item");
+    // console.log(listNodes);
+    // listNodes.forEach((item) => {
+    //   console.log(item.textContent);
+    // });
+    //fourth method
+    // ul = document.getElementsByClassName("parent");
+    // console.log(ul);
+    // listItems = ul[0].children;
+    // console.log(listItems);
+    // myConvertedArray = Array.from(listItems);
+    // myConvertedArray.forEach((item) => {
+    //   console.log(item.textContent);
+    // });
+    //creating an element
+    // function createElement(text) {
+    //   div = document.querySelector("div");
+    //   p = document.createElement("p");
+    //   p.appendChild(document.createTextNode(text));
+    //   p.style.backgroundColor = "#212121";
+    //   p.style.padding = "10px";
+    //   p.style.color = "white";
+    //   div.appendChild(p);
+    // }
+    // createElement("welcome to chai aur code ");
+    // createElement("welcome to pw skills");
+    //edit an element
+    // p = document.querySelector("p:first-child");
+    // newP = document.createElement("p");
+    // newP.textContent = "welcome to geeks of geeks";
+    // p.replaceWith(newP);
+    // p = document.querySelector("p:last-child");
+    // p.outerHTML = "<p>welcome to physics Wallah";
+    //remove an element
+    // lastChild = document.querySelector("li:last-child");
+    // lastChild.remove();
+  </script>
+</html>
